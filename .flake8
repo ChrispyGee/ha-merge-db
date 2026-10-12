@@ -1,0 +1,3 @@
+[flake8]
+# Long lines are mostly SQL strings, which read better unbroken.
+max-line-length = 130

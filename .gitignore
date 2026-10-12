@@ -1,0 +1,16 @@
+# Never commit Home Assistant databases or anything derived from them: they contain your whole home's history.
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.partial
+*.recovered.db
+*.bz2
+*.sql
+report.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
